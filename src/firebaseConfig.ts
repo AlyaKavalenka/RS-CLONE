@@ -4,13 +4,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 export const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: 'genial-motif-376109.firebaseapp.com',
-  projectId: 'genial-motif-376109',
-  storageBucket: 'genial-motif-376109.appspot.com',
-  messagingSenderId: '100913802659',
-  appId: '1:100913802659:web:568843dcad439cca623e16',
-  measurementId: 'G-GFD0HL1NJL',
+  apiKey: 'AIzaSyAbiFDAxDjj6K8w1aXRg2eK44_334NO8zE',
+  authDomain: 'clone-telegram-f8585.firebaseapp.com',
+  projectId: 'clone-telegram-f8585',
+  storageBucket: 'clone-telegram-f8585.appspot.com',
+  messagingSenderId: '798731247675',
+  appId: '1:798731247675:web:d4c3957eb1d5af47dbbc1e',
+  measurementId: 'G-YSJG47WWSG',
+
 };
 
 export const app = initializeApp(firebaseConfig);
